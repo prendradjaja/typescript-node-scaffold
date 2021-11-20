@@ -8,11 +8,14 @@
     "build": "tsc",
     "watch": "tsc -w",
     "clean": "rm -rf dist",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "prettier --write \"./src/**/*.ts\"",
+    "noop": "echo Nothing happened. This line is just here so the real lines can all have commas."
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "prettier": "2.4.1",
     "typescript": "^4.5.2"
   }
 }
