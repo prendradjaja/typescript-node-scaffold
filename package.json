@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node dist/index.js",
     "build": "tsc",
-    "watch": "tsc -w",
+    "typecheck": "tsc --noEmit",
+    "typecheck:watch": "tsc --watch --noEmit",
     "clean": "rm -rf dist",
     "test": "jest",
     "prettier": "prettier --write .",
