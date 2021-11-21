@@ -1,6 +1,6 @@
-import { Chess, ChessInstance } from "chess.js";
+import { Chess } from "chess.js";
 import { hello } from "./hello";
 
-let board: ChessInstance = new Chess();
+let board = new Chess();
 board.move("e4");
 console.log(board.ascii());
