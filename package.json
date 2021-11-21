@@ -10,7 +10,7 @@
     "typecheck:watch": "tsc --watch --noEmit",
     "clean": "rm -rf dist",
     "test": "jest",
-    "prettier": "prettier --write .",
+    "format": "prettier --write .",
     "prepare-husky": "husky install",
     "noop": "echo Nothing happened. This line is just here so the real lines can all have commas."
   },
