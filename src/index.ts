@@ -1,3 +1,6 @@
+import { Chess } from "chess.js";
 import { hello } from "./hello";
 
-console.log(hello());
+let x: string = "hello";
+x = 3;
+console.log(x);
