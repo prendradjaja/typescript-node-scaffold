@@ -2,5 +2,5 @@
 
 ```
 npm install
-npx prepare-husky
+npm run prepare-husky
 ```
