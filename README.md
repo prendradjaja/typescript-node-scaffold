@@ -24,5 +24,5 @@ echo Success!
 
 ```
 npm install
-npm run prepare-husky
+npm run prepare-husky  # Set up pre-commit hook for Prettier. OK to skip this if you don't want Prettier.
 ```
